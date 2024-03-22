@@ -39,7 +39,7 @@ io.on("connection", (socket) => {
 
   socket.on("disconnect", () => {
     socket.broadcast.emit("leave", {
-      user: "Admin,",
+      user: "Admin",
       message: ` ${users[socket.id]} left `,
     });
 

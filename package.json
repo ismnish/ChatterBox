@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "build":"npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm build --prefix frontend",
+    "build":"npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix client && npm build --prefix client",
     "dev":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

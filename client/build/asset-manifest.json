@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bdba06df.css",
+    "main.js": "/static/js/main.a666262c.js",
+    "static/js/453.258b012d.chunk.js": "/static/js/453.258b012d.chunk.js",
+    "static/media/Chatterboxlogo.png": "/static/media/Chatterboxlogo.e5d732b5a0ee92299032.png",
+    "index.html": "/index.html",
+    "main.bdba06df.css.map": "/static/css/main.bdba06df.css.map",
+    "main.a666262c.js.map": "/static/js/main.a666262c.js.map",
+    "453.258b012d.chunk.js.map": "/static/js/453.258b012d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdba06df.css",
+    "static/js/main.a666262c.js"
+  ]
+}

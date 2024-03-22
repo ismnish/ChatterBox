@@ -1,0 +1,61 @@
+.messageBox {
+  background-color: rgb(25, 95, 104);
+  width: 50%;
+  padding: 1vmax;
+  margin: 1vmax;
+  border-radius: 0.5vmax;
+  display: inline-block;
+  clear: both;
+  color: white;
+}
+.right {
+  float: right;
+  background-color: #310666;
+  color: white;
+}
+.left {
+  float: left;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 947px) {
+  .messageBox {
+    background-color: rgb(25, 95, 104);
+    width: 50%;
+    padding: 1vmax;
+    margin: 1vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+    color: white;
+    font-size: 20px;
+  }
+  .right {
+    float: right;
+    background-color: #310666;
+    color: white;
+  }
+  .left {
+    float: left;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .messageBox {
+    background-color: rgb(25, 95, 104);
+    width: 50%;
+    padding: 1vmax;
+    margin: 1vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+    color: white;
+    font-size: 25px;
+  }
+  .right {
+    float: right;
+    background-color: #310666;
+    color: white;
+  }
+  .left {
+    float: left;
+  }
+}

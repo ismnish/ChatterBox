@@ -1,0 +1,211 @@
+
+.chatPage {
+    background-color: #fff;
+    background-color: rgb(145, 122, 250) !important;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.chatContainer {
+    background-color: rgb(30, 1, 20);
+    border: 2px solid white !important;
+    height: 100vh;
+    width: 70vw;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}  
+
+.header {
+    background-color: #310666;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header h1 {
+    color: #fff;
+    margin: 1vmax;
+}
+#closeIcon{
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.header>img {
+    border-radius: 10px;
+    width: 80%;
+    max-width: 180px;
+    display: flex;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+.chatBox {
+    border: 2px solid #310666;
+    height: 70%;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 10px;
+}
+
+.inputBox {
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+#chatInput {
+    width: 80%;
+    color: white;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #310666;
+    outline: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.sendBtn {
+    background-color: #310666;
+    color: #fff;
+    border: none;
+    width: 20%;
+    transition: all;
+    cursor: pointer;
+    font-size: 1.2vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* border-bottom-radius: 10px; */
+    /* border-top-radius: 10px; */
+}
+
+.sendBtn:hover {
+    background-color: rgb(25, 95, 104);
+}
+
+#sendBtnImg {
+    width: 4vmax;
+    padding: 1px;
+    filter: brightness(100) invert();
+    transition: all 0.3s;
+}
+
+.sendBtn:hover img {
+    transform: rotate(45deg);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 947px) {
+    .chatPage {
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chatContainer {
+        width: 60vw;
+        height: 100vh;
+    }
+    .header {
+        background-color: #310666;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .header h1 {
+        margin: 2px;
+        font-size: 20px;
+    }
+    .header > img {
+        width: 40%;
+        height: 13vh;
+    }
+    #chatInput {
+        padding: 8px;
+        font-size: 14px;
+    }
+    #closeIcon {
+        width: 30px;
+        height: 30px;
+    }
+    .sendBtn {
+        padding: 0px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    #sendBtnImg {
+        width: 40px;
+    }
+}
+
+
+
+/* Media query for smaller screen sizes */
+@media only screen and (max-width: 768px) {
+    .chatPage {
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chatContainer {
+        width: 100vw;
+        height: 100vh;
+    }
+    .header {
+        background-color: #310666;
+        /* height: %; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .header h1 {
+        margin: 2px;
+        font-size: 20px;
+    }
+    .header>img{
+        width: 40%;
+        height: 13vh;
+    }
+    #chatInput {
+        padding: 8px;
+        font-size: 14px;
+    }
+    #closeIcon{
+        width: 30px;
+        height: 30px;
+    }
+    .sendBtn {
+        padding:0px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    #sendBtnImg{
+        width: 40px;
+        
+    }
+}
